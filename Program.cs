@@ -28,6 +28,8 @@ namespace ByteBank{
             roberta.CPF = "548.645.852-90";
             roberta.Salario = 9000;
 
+            
+
             Console.WriteLine(roberta.GetBonificacao());
             Console.ReadLine();
 

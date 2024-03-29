@@ -15,7 +15,7 @@ namespace ByteBank.Funcionarios
         public string CPF { get; set; }
         public double Salario { get; set; }
 
-        public double GetBonificacao()
+        public virtual double GetBonificacao()
         {
             if (_tipo == 1)
                 return Salario * 2;
